@@ -849,6 +849,9 @@ SafariZoneMainOffice_Blocks:
 PlayersHouse2F_Blocks:
 	INCBIN "maps/PlayersHouse2F.blk"
 
+PlayersHouseSecretRoom_Blocks:
+	INCBIN "maps/PlayersHouseSecretRoom.blk"
+
 SaffronMagnetTrainStation_Blocks:
 	INCBIN "maps/SaffronMagnetTrainStation.blk"
 
