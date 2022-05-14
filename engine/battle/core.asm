@@ -826,10 +826,8 @@ GetMovePriority:
 
 	ld b, a
 
-	; Vital Throw goes last.
-	cp VITAL_THROW
-	ld a, 0
-	ret z
+	; Originally, VITAL_THROW was lazily added here after the devs
+	; not bothering to add it to the effects_priorities list
 
 	call GetMoveEffect
 	ld hl, MoveEffectPriorities
