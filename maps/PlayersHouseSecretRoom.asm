@@ -91,7 +91,7 @@ SecretRoomPC7Script:
     jumptext SecretRoomPC7Text
 
 TrainerRobotVraj:
-	trainer CAMPER, JERRY, EVENT_BEAT_CAMPER_JERRY, RobotVrajSeenText, RobotVrajBeatenText, 0, .Script
+	trainer ROBOT, VRAJ, EVENT_BEAT_ROBOT_VRAJ, RobotVrajSeenText, RobotVrajBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
